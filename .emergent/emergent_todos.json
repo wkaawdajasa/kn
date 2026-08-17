@@ -1,0 +1,54 @@
+[
+  {
+    "content": "P0: Pulihkan lingkungan + reproduksi titik henti (gate 71 HIJAU, dijalankan ulang sendiri)",
+    "status": "completed"
+  },
+  {
+    "content": "P5.0: Celah INV-UI-05 (form inline di berkas ANAK) ditutup + 3 form inline terakhir → pop-up; self-test 12/12",
+    "status": "completed"
+  },
+  {
+    "content": "P5.1: 61 dialog blokir peramban (36 alert + 21 confirm + 4 prompt) → ErrorNotice/toast/askConfirm-askReason-askText",
+    "status": "completed"
+  },
+  {
+    "content": "P5.1c: Alasan BENAR-BENAR disimpan (5 endpoint) + audit void kwitansi AR yang hilang",
+    "status": "completed"
+  },
+  {
+    "content": "P5.2: ux_audit dibuat sadar-rujukan + self-test 16/16; 17 tuduhan palsu dibuang, 5 gap NYATA diperbaiki → 0 ERROR; jadi GATE",
+    "status": "completed"
+  },
+  {
+    "content": "P5.3: WARN uang → W1 dipulihkan ke makna standar ('KOLOM uang') + 5 kolom nyata diperbaiki → W1 0; W5 0",
+    "status": "completed"
+  },
+  {
+    "content": "P5.4: Gate INV-UI-06 + self-test 17/17 + bukti-merah 61 pelanggaran pada kode lama; terdaftar di gate.sh",
+    "status": "completed"
+  },
+  {
+    "content": "P2.1: Paginasi Retur Jual + Retur Beli (+2 endpoint status-counts) — diverifikasi di peramban",
+    "status": "completed"
+  },
+  {
+    "content": "P2.2: Paginasi Pesanan (+ backorder_count) + Jurnal GL (list_entries_paged) — diverifikasi di peramban",
+    "status": "completed"
+  },
+  {
+    "content": "Verifikasi: gate.sh --full 75 HIJAU / 0 FAIL (2×, termasuk sesudah seed ulang) + konsol peramban 0 error",
+    "status": "completed"
+  },
+  {
+    "content": "E2E testing_agent_v3: BE 11/11 · FE 0 bug UI · syarat 'tanpa dialog peramban' LULUS; 2 klaim agen diverifikasi ulang (nav & US-P5-3)",
+    "status": "completed"
+  },
+  {
+    "content": "Residu data uji dibersihkan (seed ulang + baseline disimpan) → INV-GATE-01 nol residu",
+    "status": "completed"
+  },
+  {
+    "content": "Dokumentasi: PERF_UX_AUDIT.md §P5/§P2 · plan.md §STATUS P5 · SESSION_HANDOFF.md · INVARIANTS.md · scripts/INDEX.md",
+    "status": "completed"
+  }
+]
